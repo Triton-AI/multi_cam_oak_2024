@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'cams = multi_cam.multi_cam_node:main',
-            'subs = multi_cam.cam_subscriber_node:main'
+            'subs = multi_cam.cam_subscriber_node:main',
+            'camera = multi_cam.oakd_cams_node:main'
         ],
     },
 )
